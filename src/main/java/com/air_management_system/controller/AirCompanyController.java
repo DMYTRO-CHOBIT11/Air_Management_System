@@ -32,8 +32,13 @@ public class AirCompanyController {
         return  new ResponseEntity(airCompanyDAO.deleteAirCompany(id),HttpStatus.OK);
     }
 
-    @GetMapping("/companyByStatus/{status}")
+    @GetMapping("/flightByStatus/{status}")
     public ResponseEntity companyByStatus(@PathVariable String status){
-        return new ResponseEntity(airCompanyDAO.findAllCompanyByStatus(status),HttpStatus.OK);
+        return new ResponseEntity(airCompanyDAO.findAllFlightByStatus(status),HttpStatus.OK);
+    }
+
+    @PostMapping("/changeOwnerAirplane")
+    public ResponseEntity updateCompany(@RequestParam long companyID,long airplaneID){
+        return new ResponseEntity(airCompanyDAO.changeOwnerAirplane(airplaneID,companyID),HttpStatus.OK);
     }
 }

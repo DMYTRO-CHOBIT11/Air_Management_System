@@ -12,5 +12,4 @@ public interface AirplaneDAO {
     String deleteAirplane(long id);
     Optional<Airplane> getAirplane(long id);
     List<Airplane> allAirplane();
-    String updateAirplane(long id,Airplane airplane);
 }

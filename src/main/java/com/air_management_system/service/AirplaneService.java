@@ -64,8 +64,8 @@ public class AirplaneService implements AirplaneDAO {
                 .getResultList();
     }
 
-    @Override
-    public String updateAirplane(long id, Airplane airplane) {
-        return null;
-    }
+//    @Override
+//    public String updateCompanyForAirplane(long id, Airplane airplane) {
+//        return null;
+//    }
 }

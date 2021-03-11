@@ -1,5 +1,6 @@
 package com.air_management_system.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
@@ -7,12 +8,13 @@ import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.sql.Date;
+import java.time.LocalDateTime;
+import java.util.Date;
 
 @Setter
 @Getter
 @Entity
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
 public class Flight {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,12 +25,13 @@ public class Flight {
     private String destination_country;
     private int distance;
     private int estimated_flight_time;
-    private String ended_at;
-    private Date delay_started_at;
-    private String created_at;
+    private LocalDateTime ended_at;
+    private LocalDateTime delay_started_at;
+    private LocalDateTime created_at;
     @ManyToOne
+    @JsonBackReference
     private Air_Company airCompany;
     @ManyToOne
+    @JsonBackReference
     private Airplane airplane;
-
 }

@@ -13,4 +13,7 @@ public interface FlightDAO {
     Optional<Flight> getFlight(long id);
     List<Flight> allFlight();
     String updateFlight(long id,Flight flight);
+    List<Flight>allFlightWithActiveStatusAndDelayMore24h();
+    String changeFlightStatus(long flightID,String newStatus);
+    List<Flight> completedStatusAndDifferentInTime();
 }

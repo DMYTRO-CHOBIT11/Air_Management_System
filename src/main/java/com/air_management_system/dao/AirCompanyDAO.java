@@ -5,6 +5,7 @@ import com.air_management_system.entity.Flight;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @Repository
@@ -14,5 +15,6 @@ public interface AirCompanyDAO {
     Optional<Air_Company> getAirCompany(long id);
     List<Air_Company> allAirCompany();
     String updateAirCompany(long id,Air_Company airCompany);
-    List<Flight> findAllCompanyByStatus(String status);
+    Map<String, Flight> findAllFlightByStatus(String status);
+    String changeOwnerAirplane(long airplaneID, long companyID);
 }

@@ -1,8 +1,6 @@
 package com.air_management_system.entity;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.annotation.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,7 +11,7 @@ import java.util.Set;
 @Setter
 @Getter
 @Entity
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
+//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
 public class Airplane {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,7 +24,9 @@ public class Airplane {
     private String type;
     private String created_at;
     @ManyToOne
+    @JsonBackReference
     private Air_Company airCompany;
     @OneToMany(mappedBy = "airplane")
+    @JsonManagedReference
     private Set<Flight> flights=new HashSet<>();
 }
