@@ -1,0 +1,3912 @@
+{
+	"info": {
+		"_postman_id": "b05fd9d7-05d2-45b8-b253-0ab6fd54b07a",
+		"name": "Api Documentation",
+		"description": "Api Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "error",
+			"item": [
+				{
+					"name": "error",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "HEAD",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "HEAD",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "No Content",
+							"originalRequest": {
+								"method": "HEAD",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "HEAD",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Not Found",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Created",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "No Content",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "OPTIONS",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "OPTIONS",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "OPTIONS",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "No Content",
+							"originalRequest": {
+								"method": "OPTIONS",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "error",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/error",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"error"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Unauthorized",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "No Content",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Forbidden",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "Forbidden",
+							"code": 403,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "OK",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/error",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"error"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "*/*"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "addAirCompany",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"in do\",\n                \"founded_at\": \"amet in pariatur ullamco adipisic\",\n                \"id\": -76646857,\n                \"name\": \"adipisicing commodo\"\n            },\n            \"created_at\": \"mollit\",\n            \"factory_serial_number\": \"elit\",\n            \"flight_distance\": -10295082,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2004-03-29T10:23:05.359Z\",\n                    \"delay_started_at\": \"2002-06-25T06:29:14.847Z\",\n                    \"departure_country\": \"officia fugiat minim et\",\n                    \"destination_country\": \"velit fugiat\",\n                    \"distance\": 65336413,\n                    \"ended_at\": \"1987-04-29T09:51:41.953Z\",\n                    \"estimated_flight_time\": -76096935,\n                    \"id\": -59877445,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1953-12-09T05:26:40.060Z\",\n                    \"delay_started_at\": \"2004-05-13T22:52:16.894Z\",\n                    \"departure_country\": \"et enim ea consequat\",\n                    \"destination_country\": \"reprehenderit commodo dolor\",\n                    \"distance\": 39903718,\n                    \"ended_at\": \"1948-02-11T06:55:49.998Z\",\n                    \"estimated_flight_time\": -99839542,\n                    \"id\": 94610242,\n                    \"status\": \"ACTIVE\"\n                }\n            ],\n            \"fuel_capacity\": -79641503,\n            \"id\": -87716247,\n            \"name\": \"non dolor ut commodo\",\n            \"number_of_flights\": 66183036,\n            \"type\": \"nulla Excepteur exercitation ipsum\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"culpa anim do\",\n                \"founded_at\": \"eiusmod dolor aliquip\",\n                \"id\": -27384307,\n                \"name\": \"sunt \"\n            },\n            \"created_at\": \"Ut amet veniam aliqua\",\n            \"factory_serial_number\": \"magna Excepteur anim ad\",\n            \"flight_distance\": 43891741,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1941-05-27T20:38:57.378Z\",\n                    \"delay_started_at\": \"1998-04-24T20:58:26.640Z\",\n                    \"departure_country\": \"ex Duis tempor nostrud minim\",\n                    \"destination_country\": \"id commodo enim est\",\n                    \"distance\": -20131969,\n                    \"ended_at\": \"1954-06-29T18:39:32.930Z\",\n                    \"estimated_flight_time\": 72932277,\n                    \"id\": -35458767,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1973-11-25T22:50:20.687Z\",\n                    \"delay_started_at\": \"1986-01-18T23:41:57.607Z\",\n                    \"departure_country\": \"cupidatat consectetur\",\n                    \"destination_country\": \"Lorem commodo labore \",\n                    \"distance\": 3664060,\n                    \"ended_at\": \"1942-02-27T23:31:47.973Z\",\n                    \"estimated_flight_time\": -78549592,\n                    \"id\": -36483879,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 64765278,\n            \"id\": 35003980,\n            \"name\": \"cillum voluptate aute pariatur\",\n            \"number_of_flights\": 1616172,\n            \"type\": \"proident id non velit\"\n        }\n    ],\n    \"company_type\": \"voluptate exercitation cillum\",\n    \"founded_at\": \"id\",\n    \"id\": 8975953,\n    \"name\": \"Excepteur\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/addAirCompany",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"addAirCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/addAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"addAirCompany"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/addAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"addAirCompany"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/addAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"addAirCompany"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/addAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"addAirCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/addAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"addAirCompany"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "changeFlightStatus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"changeFlightStatus",
+						":id"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "laboris cillum",
+							"description": "(Required) status"
+						}
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeFlightStatus",
+								":id"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "laboris cillum"
+								}
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeFlightStatus",
+								":id"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "laboris cillum"
+								}
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeFlightStatus",
+								":id"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "laboris cillum"
+								}
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeFlightStatus",
+								":id"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "laboris cillum"
+								}
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeFlightStatus/:id?status=laboris cillum",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeFlightStatus",
+								":id"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "laboris cillum"
+								}
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "changeOwnerAirplane",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"changeOwnerAirplane"
+					],
+					"query": [
+						{
+							"key": "airplaneID",
+							"value": "-68389245",
+							"description": "airplaneID"
+						},
+						{
+							"key": "companyID",
+							"value": "-68389245",
+							"description": "(Required) companyID"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeOwnerAirplane"
+							],
+							"query": [
+								{
+									"key": "airplaneID",
+									"value": "-68389245"
+								},
+								{
+									"key": "companyID",
+									"value": "-68389245"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeOwnerAirplane"
+							],
+							"query": [
+								{
+									"key": "airplaneID",
+									"value": "-68389245"
+								},
+								{
+									"key": "companyID",
+									"value": "-68389245"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeOwnerAirplane"
+							],
+							"query": [
+								{
+									"key": "airplaneID",
+									"value": "-68389245"
+								},
+								{
+									"key": "companyID",
+									"value": "-68389245"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeOwnerAirplane"
+							],
+							"query": [
+								{
+									"key": "airplaneID",
+									"value": "-68389245"
+								},
+								{
+									"key": "companyID",
+									"value": "-68389245"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/changeOwnerAirplane?airplaneID=-68389245&companyID=-68389245",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"changeOwnerAirplane"
+							],
+							"query": [
+								{
+									"key": "airplaneID",
+									"value": "-68389245"
+								},
+								{
+									"key": "companyID",
+									"value": "-68389245"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "completedStatusAndDifferentInTime",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/completedStatus",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"completedStatus"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/completedStatus",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"completedStatus"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/completedStatus",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"completedStatus"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/completedStatus",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"completedStatus"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/completedStatus",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"completedStatus"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "createAirplane",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/createAirplane",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"createAirplane"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createAirplane"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createAirplane"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createAirplane"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createAirplane"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airCompany\": {\n        \"airplanes\": [\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            }\n        ],\n        \"company_type\": \"in\",\n        \"founded_at\": \"fugiat elit\",\n        \"id\": 85216601,\n        \"name\": \"nulla ut eiusmod pariatur\"\n    },\n    \"created_at\": \"sit Lorem\",\n    \"factory_serial_number\": \"ea sit magna\",\n    \"flight_distance\": -46223273,\n    \"flights\": [\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1985-06-04T13:26:54.406Z\",\n            \"delay_started_at\": \"1986-10-14T02:39:38.603Z\",\n            \"departure_country\": \"in eu\",\n            \"destination_country\": \"velit eu\",\n            \"distance\": 98541156,\n            \"ended_at\": \"1969-12-12T23:19:50.796Z\",\n            \"estimated_flight_time\": 13466335,\n            \"id\": -29648723,\n            \"status\": \"PENDING\"\n        },\n        {\n            \"airplane\": {\n                \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n            },\n            \"created_at\": \"1972-08-05T15:44:22.530Z\",\n            \"delay_started_at\": \"1995-11-18T20:08:52.465Z\",\n            \"departure_country\": \"amet fugiat nulla cupidatat\",\n            \"destination_country\": \"irure sunt deserunt\",\n            \"distance\": -26075165,\n            \"ended_at\": \"1955-07-19T17:30:57.604Z\",\n            \"estimated_flight_time\": 93785054,\n            \"id\": 81561123,\n            \"status\": \"PENDING\"\n        }\n    ],\n    \"fuel_capacity\": -91656714,\n    \"id\": 98510177,\n    \"name\": \"mollit Ut Duis\",\n    \"number_of_flights\": 32654013,\n    \"type\": \"et deser\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createAirplane"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "createFlight",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/createFlight",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"createFlight"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createFlight"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createFlight"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createFlight"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createFlight"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplane\": {\n        \"airCompany\": {\n            \"airplanes\": [\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                }\n            ],\n            \"company_type\": \"mollit elit pariatur\",\n            \"founded_at\": \"dolore sit aliqua ea\",\n            \"id\": -80582557,\n            \"name\": \"eiusmod sunt id sed\"\n        },\n        \"created_at\": \"id exercitation qui\",\n        \"factory_serial_number\": \"incididunt mollit pariatur\",\n        \"flight_distance\": -80525779,\n        \"flights\": [\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1959-05-02T09:06:15.898Z\",\n                \"delay_started_at\": \"1983-10-14T18:49:24.525Z\",\n                \"departure_country\": \"aliquip dolore\",\n                \"destination_country\": \"Lorem\",\n                \"distance\": -9014729,\n                \"ended_at\": \"1987-06-11T23:49:58.207Z\",\n                \"estimated_flight_time\": -56777507,\n                \"id\": 99254100,\n                \"status\": \"PENDING\"\n            },\n            {\n                \"airplane\": {\n                    \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                },\n                \"created_at\": \"1954-06-24T05:58:43.148Z\",\n                \"delay_started_at\": \"1966-11-23T13:11:18.728Z\",\n                \"departure_country\": \"ut aliquip proident\",\n                \"destination_country\": \"in ad labore\",\n                \"distance\": -65338250,\n                \"ended_at\": \"2011-05-24T17:54:13.416Z\",\n                \"estimated_flight_time\": 11937429,\n                \"id\": -85595292,\n                \"status\": \"PENDING\"\n            }\n        ],\n        \"fuel_capacity\": 37673392,\n        \"id\": -78061233,\n        \"name\": \"laborum sunt dolor adipisicing\",\n        \"number_of_flights\": -71921150,\n        \"type\": \"sed velit fugiat\"\n    },\n    \"created_at\": \"1958-02-15T07:07:16.932Z\",\n    \"delay_started_at\": \"2009-02-16T07:47:23.023Z\",\n    \"departure_country\": \"deserunt fugiat la\",\n    \"destination_country\": \"tempor commodo\",\n    \"distance\": -72378750,\n    \"ended_at\": \"1957-08-28T05:30:57.195Z\",\n    \"estimated_flight_time\": 7242923,\n    \"id\": -89236571,\n    \"status\": \"ACTIVE\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/createFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"createFlight"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "deleteCompany",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/deleteAirCompany/:companyID",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deleteAirCompany",
+						":companyID"
+					],
+					"variable": [
+						{
+							"key": "companyID",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) companyID"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "No Content",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "deleteAirplaneById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/deleteAirplane/:id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deleteAirplane",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "No Content",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "deleteFlightById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/deleteFlight/:id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"deleteFlight",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "No Content",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/deleteFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"deleteFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "companyByStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/flightByStatus/:status",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"flightByStatus",
+						":status"
+					],
+					"variable": [
+						{
+							"key": "status",
+							"value": "laboris cillum",
+							"type": "string",
+							"description": "(Required) status"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightByStatus/:status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightByStatus",
+								":status"
+							],
+							"variable": [
+								{
+									"key": "status"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightByStatus/:status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightByStatus",
+								":status"
+							],
+							"variable": [
+								{
+									"key": "status"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightByStatus/:status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightByStatus",
+								":status"
+							],
+							"variable": [
+								{
+									"key": "status"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightByStatus/:status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightByStatus",
+								":status"
+							],
+							"variable": [
+								{
+									"key": "status"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "allFlightWithActiveStatusAndDelayMore24h",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/flightMore24h",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"flightMore24h"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightMore24h",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightMore24h"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightMore24h",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightMore24h"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightMore24h",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightMore24h"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/flightMore24h",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"flightMore24h"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getAirCompany/:companyID",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getAirCompany",
+						":companyID"
+					],
+					"variable": [
+						{
+							"key": "companyID",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) companyID"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirCompany/:companyID",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirCompany",
+								":companyID"
+							],
+							"variable": [
+								{
+									"key": "companyID"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getAirplaneById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getAirplane/:id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getAirplane",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAirplane/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAirplane",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getAllCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getAllAirCompany",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getAllAirCompany"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirCompany"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirCompany"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirCompany"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirCompany",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirCompany"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getAllAirplane",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getAllAirplane",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getAllAirplane"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirplane"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirplane"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirplane"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllAirplane",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllAirplane"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getAllFlight",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getAllFlight",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getAllFlight"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllFlight"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllFlight"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllFlight"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getAllFlight",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getAllFlight"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "getFlightById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getFlight/:id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getFlight",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getFlight/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getFlight",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "updateCompany",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/updateAirCompany/:id",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"updateAirCompany",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "-68389245",
+							"type": "string",
+							"description": "(Required) id"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Created",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/updateAirCompany/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"updateAirCompany",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "OK",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/updateAirCompany/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"updateAirCompany",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "*/*"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Not Found",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/updateAirCompany/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"updateAirCompany",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Forbidden",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/updateAirCompany/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"updateAirCompany",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Unauthorized",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"airplanes\": [\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"aliqua esse sint et\",\n                \"founded_at\": \"commodo nulla ex eu\",\n                \"id\": -21640136,\n                \"name\": \"non fugiat dolore et\"\n            },\n            \"created_at\": \"do cupidatat\",\n            \"factory_serial_number\": \"pariatur elit do\",\n            \"flight_distance\": -8383680,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2007-12-11T20:42:38.544Z\",\n                    \"delay_started_at\": \"2005-02-05T10:45:26.739Z\",\n                    \"departure_country\": \"cupidatat sed pariatur\",\n                    \"destination_country\": \"est aliqua laboris ea mollit\",\n                    \"distance\": 31306271,\n                    \"ended_at\": \"2008-09-05T18:55:56.856Z\",\n                    \"estimated_flight_time\": -95215622,\n                    \"id\": 8009783,\n                    \"status\": \"PENDING\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"2002-03-21T06:25:37.973Z\",\n                    \"delay_started_at\": \"1952-04-27T10:58:36.535Z\",\n                    \"departure_country\": \"ex\",\n                    \"destination_country\": \"dolore\",\n                    \"distance\": -73485997,\n                    \"ended_at\": \"1947-07-13T04:22:36.580Z\",\n                    \"estimated_flight_time\": 50568605,\n                    \"id\": 45782668,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": 42346760,\n            \"id\": 58157614,\n            \"name\": \"irure dolore nisi\",\n            \"number_of_flights\": -22361652,\n            \"type\": \"adipisicing esse\"\n        },\n        {\n            \"airCompany\": {\n                \"airplanes\": [\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    }\n                ],\n                \"company_type\": \"do mollit\",\n                \"founded_at\": \"ad enim\",\n                \"id\": -19567000,\n                \"name\": \"pariatur dolore ullamco\"\n            },\n            \"created_at\": \"quis ad\",\n            \"factory_serial_number\": \"non id Lorem quis\",\n            \"flight_distance\": -69026493,\n            \"flights\": [\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1980-03-10T19:13:53.133Z\",\n                    \"delay_started_at\": \"1997-03-06T22:24:09.047Z\",\n                    \"departure_country\": \"mollit\",\n                    \"destination_country\": \"consequat non sint fugi\",\n                    \"distance\": 34467639,\n                    \"ended_at\": \"1981-05-04T17:31:49.904Z\",\n                    \"estimated_flight_time\": -37088174,\n                    \"id\": -78574966,\n                    \"status\": \"DELAYED\"\n                },\n                {\n                    \"airplane\": {\n                        \"value\": \"<Circular reference to #/components/schemas/Airplane detected>\"\n                    },\n                    \"created_at\": \"1975-06-27T13:17:01.278Z\",\n                    \"delay_started_at\": \"1947-05-28T20:33:36.056Z\",\n                    \"departure_country\": \"in est\",\n                    \"destination_country\": \"est deserunt eu nulla\",\n                    \"distance\": 71202991,\n                    \"ended_at\": \"1951-05-06T13:00:02.199Z\",\n                    \"estimated_flight_time\": -77653904,\n                    \"id\": -56494791,\n                    \"status\": \"PENDING\"\n                }\n            ],\n            \"fuel_capacity\": -69765497,\n            \"id\": 78946750,\n            \"name\": \"irure nulla\",\n            \"number_of_flights\": -62918873,\n            \"type\": \"eu\"\n        }\n    ],\n    \"company_type\": \"ullamco\",\n    \"founded_at\": \"minim co\",\n    \"id\": 28582075,\n    \"name\": \"ipsum sint veniam\"\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/updateAirCompany/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"updateAirCompany",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id"
+								}
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "//localhost:9090/",
+			"type": "string"
+		}
+	]
+}
