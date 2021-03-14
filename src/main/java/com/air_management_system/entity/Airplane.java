@@ -15,12 +15,12 @@ import java.util.Set;
 public class Airplane {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
     private String name;
     private String factory_serial_number;
-    private int number_of_flights;
-    private long flight_distance;
-    private int fuel_capacity;
+    private Integer number_of_flights;
+    private Long flight_distance;
+    private Integer fuel_capacity;
     private String type;
     private String created_at;
     @ManyToOne

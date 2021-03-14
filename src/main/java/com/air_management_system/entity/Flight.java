@@ -1,15 +1,11 @@
 package com.air_management_system.entity;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.annotation.*;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Setter
 @Getter
@@ -23,13 +19,13 @@ public class Flight {
     private Status status;
     private String departure_country;
     private String destination_country;
-    private int distance;
-    private int estimated_flight_time;
+    private Integer distance;
+    private Integer estimated_flight_time;
     private LocalDateTime ended_at;
     private LocalDateTime delay_started_at;
     private LocalDateTime created_at;
     @ManyToOne
-    @JsonBackReference
+    @JsonIgnore
     private Air_Company airCompany;
     @ManyToOne
     @JsonBackReference

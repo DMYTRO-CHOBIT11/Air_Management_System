@@ -38,7 +38,12 @@ public class AirCompanyController {
     }
 
     @PostMapping("/changeOwnerAirplane")
-    public ResponseEntity updateCompany(@RequestParam long companyID,long airplaneID){
+    public ResponseEntity changeOwnerAirplane(@RequestParam long companyID,long airplaneID){
         return new ResponseEntity(airCompanyDAO.changeOwnerAirplane(airplaneID,companyID),HttpStatus.OK);
+    }
+
+    @PutMapping("/updateAirCompany/{id}")
+    public ResponseEntity updateCompany(@PathVariable long id,@RequestBody Air_Company company){
+        return new ResponseEntity(airCompanyDAO.updateAirCompany(id, company),HttpStatus.OK);
     }
 }

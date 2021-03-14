@@ -1,9 +1,6 @@
 package com.air_management_system.entity;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.fasterxml.jackson.annotation.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -23,9 +20,10 @@ public class Air_Company {
     private String company_type;
     private String founded_at;
     @OneToMany(mappedBy = "airCompany")
+    @JsonManagedReference
     private Set<Airplane>airplanes=new HashSet<>();
     @OneToMany(mappedBy = "airCompany")
-    @JsonManagedReference
+    @JsonIgnore
     private Set<Flight>flights=new HashSet<>();
 
 }

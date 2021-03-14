@@ -2,6 +2,7 @@ package com.air_management_system.service;
 
 import com.air_management_system.dao.AirCompanyDAO;
 import com.air_management_system.entity.Air_Company;
+import com.air_management_system.entity.Airplane;
 import com.air_management_system.entity.Flight;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,10 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class AirCompanyService implements AirCompanyDAO {
@@ -76,25 +74,38 @@ public class AirCompanyService implements AirCompanyDAO {
     @Transactional
     public String updateAirCompany(long id, Air_Company airCompany) {
         entityManager.createQuery("update Air_Company set name=:name,company_type=:company_type," +
-                "founded_at=:founded_at",Air_Company.class)
+                "founded_at=:founded_at where id=:id",Air_Company.class)
                 .setParameter("name",airCompany.getName())
                 .setParameter("company_type",airCompany.getCompany_type())
                 .setParameter("founded_at",airCompany.getFounded_at())
+                .setParameter("id",id)
                 .executeUpdate();
         return "Company with ID: "+id+" was updated";
     }
 
     @Override
-    public List<Flight> findAllCompanyByStatus(String status) {
+    public Map<String, Flight> findAllFlightByStatus(String status) {
         List<Air_Company>companyList=allAirCompany();
-        List<Flight>flightsByStatus=new ArrayList<>();
-        companyList.forEach(airCompany -> airCompany.getFlights().forEach(flight ->
-        {
+        Map<String,Flight>flightMap=new HashMap<>();
+        companyList.forEach(airCompany -> airCompany.getFlights().forEach(flight -> {
             if (flight.getStatus().toString().equals(status)) {
-                flightsByStatus.add(flight);
+                flightMap.put(airCompany.getName(),flight);
             }
         }));
-        flightsByStatus.forEach(System.out::println);
-        return flightsByStatus;
+        return flightMap;
+    }
+
+    @Override
+    @Transactional
+    public String changeOwnerAirplane(long airplaneID, long companyID) {
+//        entityManager.createQuery("update Airplane set airCompany.id=:companyID where id=:id",Airplane.class)
+//                .setParameter("companyID",companyID)
+//                .setParameter("id",airplaneID)
+//                .executeUpdate();
+        Airplane airplane=entityManager.find(Airplane.class,airplaneID);
+        Air_Company company=entityManager.find(Air_Company.class,companyID);
+        airplane.setAirCompany(company);
+        entityManager.persist(airplane);
+        return "New airplane owner Air Company with ID: "+companyID;
     }
 }

@@ -1,0 +1,25 @@
+version: '3'
+services:
+  mysql-standalone:
+    image: 'library/mysql:8.0'
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_PASSWORD=dmytrochobit11
+      - MYSQL_DATABASE=air_management_system
+    ports:
+      - "3307:3306"
+
+
+  springboot-docker-container:
+    image: springboot-docker-container
+    ports:
+      - "9090:9090"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-standalone:3306/air_management_system?autoReconnect=true&useSSL=false
+      SPRING_DATASOURCE_USERNAME: "root"
+      SPRING_DATASOURCE_PASSWORD: "dmytrochobit11"
+    build:
+      context: "./"
+      dockerfile: "Dockerfile"
+    depends_on:
+      - mysql-standalone

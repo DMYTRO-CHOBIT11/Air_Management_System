@@ -26,6 +26,7 @@ public class FlightService implements FlightDAO {
         flight.setStatus(Status.PENDING);
         Airplane airplane=entityManager.find(Airplane.class,flight.getAirplane().getId());
         flight.setAirCompany(airplane.getAirCompany());
+        entityManager.persist(flight);
         return "Flight with ID: "+flight.getId()+" was created";
     }
 
